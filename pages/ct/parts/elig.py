@@ -1,0 +1,5 @@
+from pages.ct.fun import table
+elig = ['Br–Br: 192.5 KJ/mol', 'Br–C: 276 KJ/mol', 'Br–H: 366.1 KJ/mol', 'C–C: 347 KJ/mol', 'C=C: 612 KJ/mol', 'C≡C: 835 KJ/mol', 'C–Cl: 338 KJ/mol', 'C–F: 484 KJ/mol', 'C–H: 414 KJ/mol', 'C–I: 238 KJ/mol', 'C–N: 276 KJ/mol', 'C=N: 615 KJ/mol', 'C≡N: 891 KJ/mol', 'C–O: 360 KJ/mol', 'C=O: 745 KJ/mol', 'C–P: 263 KJ/mol', 'C–S: 255 KJ/mol', 'C=S: 477 KJ/mol', 'Cl–Cl: 242.7 KJ/mol', 'Cl–H: 431.9 KJ/mol', 'Cl–S: 253 KJ/mol', 'F–F: 156.9 KJ/mol', 'F–H: 568.2 KJ/mol', 'F–O: 190 KJ/mol', 'H–H: 436.4 KJ/mol', 'H–I: 298.3 KJ/mol', 'H–N: 393 KJ/mol', 'H–O: 460 KJ/mol', 'H–P: 326 KJ/mol', 'H–S: 363 KJ/mol', 'I–I: 151.0 KJ/mol', 'N–N: 193 KJ/mol', 'N=N: 418 KJ/mol', 'N≡N: 944 KJ/mol', 'N–O: 176 KJ/mol', 'N–P: 209 KJ/mol', 'O–O: 157 KJ/mol', 'O=O: 498.7 KJ/mol', 'O–P: 502 KJ/mol', 'O=S: 469 KJ/mol', 'P–P: 197 KJ/mol', 'P=P: 489 KJ/mol', 'S–S: 268 KJ/mol', 'S=S: 352 KJ/mol']
+
+def elig_table():
+    table(elig)
