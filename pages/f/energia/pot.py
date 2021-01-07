@@ -36,13 +36,13 @@ def pot(b):
         result = 'P = 0 W'
         p = ""
         e = st.number_input("Energia (J)", format="%g" , step=1.0)
-        t = st.number_input("Δ Tempo (s)", format="%g" , step=1.0)
+        t = st.number_input("Variação do Tempo (s)", format="%g" , step=1.0)
     elif b == "Energia (J)":
         result = "E = 0 J"
         p = st.number_input("Potência (W)", format="%g" , step=1.0)
         e = ""
-        t = st.number_input("Δ Tempo (s)", format="%g" , step=1.0)
-    elif b == "Δ Tempo (s)":
+        t = st.number_input("Variação do Tempo (s)", format="%g" , step=1.0)
+    elif b == "Variação do Tempo (s)":
         result = "Δt = 0 s"
         p = st.number_input("Potência (W)", format="%g" , step=1.0)
         e = st.number_input("Energia (J)", format="%g" , step=1.0)

@@ -42,20 +42,20 @@ def ediss(b):
         e = ""
         r = st.number_input("Resistência (Ω)", format="%g" , step=1.0)
         i = st.number_input("Corrente Elétrica (A)", format="%g" , step=1.0)
-        t = st.number_input( "Δ Tempo (s)", format="%g" , step=1.0)
+        t = st.number_input( "Variação do Tempo (s)", format="%g" , step=1.0)
     elif b == "Resistência (Ω)":
         result = "R = 0 Ω"
         e = st.number_input("Energia Dissipada (J)", format="%g" , step=1.0)
         r = ""
         i = st.number_input("Corrente Elétrica (A)", format="%g" , step=1.0)
-        t = st.number_input( "Δ Tempo (s)", format="%g" , step=1.0)
+        t = st.number_input( "Variação do Tempo (s)", format="%g" , step=1.0)
     elif b == "Corrente Elétrica (A)":
         result = "I = 0 A"
         e = st.number_input("Energia Dissipada (J)", format="%g" , step=1.0)
         r = st.number_input("Resistência (Ω)", format="%g" , step=1.0)
         i = ""
-        t = st.number_input("Δ Tempo (s)", format="%g" , step=1.0)
-    elif b == "Δ Tempo (s)":
+        t = st.number_input("Variação do Tempo (s)", format="%g" , step=1.0)
+    elif b == "Variação do Tempo (s)":
         result = f'Δt = 0 s'
         e = st.number_input("Energia Dissipada (J)", format="%g" , step=1.0)
         r = st.number_input("Resistência (Ω)", format="%g" , step=1.0)

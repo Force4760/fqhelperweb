@@ -30,7 +30,7 @@ def calc(e, m, h):
 
 def ep(t):
     result = 'Ep = 0 J'
-    st.latex(r"E_p = m g h (g = 9.81 m/s²)")
+    st.latex(r"E_p = m g h (g = 9.81 m/s^2)")
     if t == "Energia potencial (J)":
         result = 'Ep = 0 J'
         e = ""

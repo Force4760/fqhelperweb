@@ -43,20 +43,20 @@ def irrade(b):
         e = ""
         p = st.number_input("Energia (J)", format="%g" , step=1.0)
         a = st.number_input("Área (m²)", format="%g" , step=1.0)
-        t = st.number_input("Δ Tempo (s)", format="%g" , step=1.0)
+        t = st.number_input("Variação do Tempo (s)", format="%g" , step=1.0)
     elif b == "Energia (J)":
         result = "E = 0 J"
         e = st.number_input("Irradiância (W/m²)", format="%g" , step=1.0)
         p = ""
         a = st.number_input("Área (m²)", format="%g" , step=1.0)
-        t = st.number_input("Δ Tempo (s)", format="%g" , step=1.0)
+        t = st.number_input("Variação do Tempo (s)", format="%g" , step=1.0)
     elif b == "Área (m²)":
         result = "A = 0 m²"
         e = st.number_input("Irradiância (W/m²)", format="%g" , step=1.0)
         p = st.number_input("Energia (J)", format="%g" , step=1.0)
         a = ""
-        t = st.number_input("Δ Tempo (s)", format="%g" , step=1.0)
-    elif b == "Δ Tempo (s)":
+        t = st.number_input("Variação do Tempo (s)", format="%g" , step=1.0)
+    elif b == "Variação do Tempo (s)":
         result = "Δt = 0 s"
         e = st.number_input("Irradiância (W/m²)", format="%g" , step=1.0)
         p = st.number_input("Energia (J)", format="%g" , step=1.0)

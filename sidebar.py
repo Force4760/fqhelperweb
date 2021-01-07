@@ -3,7 +3,6 @@ from pages.c.converter import converter
 from pages.ct.const_tables import table_const
 from pages.s.sobre import s
 from pages.f.formulas import f
-
 def sidebar():
     sb = st.sidebar
     sb.title("FQ Helper")

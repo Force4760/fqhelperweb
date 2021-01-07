@@ -40,7 +40,7 @@ def calc(f, m1, m2, r):
 
 def fg(t):
     result = 'F = 0 N'
-    st.latex(r"F = \frac{G m_1 m_2}{R^2}")
+    st.latex(r"F = G \frac{m_1 m_2}{R^2}")
     if t == "Força gravítica (N)":
         result = 'F = 0 N'
         f = ""

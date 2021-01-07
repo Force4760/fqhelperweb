@@ -35,13 +35,13 @@ def rm(b):
         result = 'rm = 0 m/s'
         r = ""
         s = st.number_input("Distância Percorrida (m)", format="%g" , step=1.0)
-        t = st.number_input("Δ Tempo (s)", format="%g" , step=1.0)
+        t = st.number_input("Variação do Tempo (s)", format="%g" , step=1.0)
     elif b == "Distância Percorrida (m)":
         result = "Δs = 0 m"
         r = st.number_input("Rapidez Média (m/s)", format="%g" , step=1.0)
         s = ""
-        t = st.number_input("Δ Tempo (s)", format="%g" , step=1.0)
-    elif b == "Δ Tempo (s)":
+        t = st.number_input("Variação do Tempo (s)", format="%g" , step=1.0)
+    elif b == "Variação do Tempo (s)":
         result = "Δt = 0 s"
         r = st.number_input("Rapidez Média (m/s)", format="%g" , step=1.0)
         s = st.number_input("Distância Percorrida (m)", format="%g" , step=1.0)

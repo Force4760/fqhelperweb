@@ -34,17 +34,17 @@ def am(b):
     if b == "Aceleração Centrípeta (m/s²)":
         result = 'ac = 0 m/s²'
         a = ""
-        v = st.number_input("Δ Velocidade (m/s)", format="%g" , step=1.0)
-        t = st.number_input("Δ Tempo (s)", format="%g" , step=1.0)
-    elif b == "Δ Velocidade (m/s)":
+        v = st.number_input("Variação da Velocidade (m/s)", format="%g" , step=1.0)
+        t = st.number_input("Variação do Tempo (s)", format="%g" , step=1.0)
+    elif b == "Variação da Velocidade (m/s)":
         result = "Δv = 0 m/s"
         a = st.number_input("Aceleração Centrípeta (m/s²)", format="%g" , step=1.0)
         v = ""
-        t = st.number_input("Δ Tempo (s)", format="%g" , step=1.0)
-    elif b == "Δ Tempo (s)":
+        t = st.number_input("Variação do Tempo (s)", format="%g" , step=1.0)
+    elif b == "Variação do Tempo (s)":
         result = "Δt = 0 s"
         a = st.number_input("Aceleração Centrípeta (m/s²)", format="%g" , step=1.0)
-        v = st.number_input("Δ Velocidade (m/s)", format="%g" , step=1.0)
+        v = st.number_input("Variação da Velocidade (m/s)", format="%g" , step=1.0)
         t = ""
     if st.button("Calcular"):
          result = calc(a,v,t)

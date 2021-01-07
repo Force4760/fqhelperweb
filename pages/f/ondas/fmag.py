@@ -60,7 +60,7 @@ def calc(f, b, a, cos, u):
 def fmag(t):
     result = 'ϕ = 0 Wb'
     u = st.radio("",["Ângulo em graus", "Ângulo em radianos"])
-    st.latex(r"\Phi = B \times A cos(\alpha)")
+    st.latex(r"\Phi = B  A  cos(\alpha)")
     if u == "Ângulo em graus":
         u = "º"
     else:

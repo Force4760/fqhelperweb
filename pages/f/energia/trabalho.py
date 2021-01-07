@@ -61,21 +61,21 @@ def trabalho(t):
         w = ""
         f = st.number_input("Força (N)", format="%g" , step=1.0)
         d = st.number_input("Deslocamento (m)", format="%g" , step=1.0)
-        a = st.number_input("Ângulo α ({u})", format="%g" , step=1.0)
+        a = st.number_input(f"Ângulo α ({u})", format="%g" , step=1.0)
     elif t == "Força (N)":
         result = "F = 0 N"
         w = st.number_input("Trabalho (J)", format="%g" , step=1.0)
         f = ""
         d = st.number_input("Deslocamento (m)", format="%g" , step=1.0)
-        a = st.number_input("Ângulo α ({u})", format="%g" , step=1.0)
+        a = st.number_input(f"Ângulo α ({u})", format="%g" , step=1.0)
     elif t == "Deslocamento (m)":
         result = "d = 0 m"
         w = st.number_input("Trabalho (J)", format="%g" , step=1.0)
         f = st.number_input("Força (N)", format="%g" , step=1.0)
         d = ""
-        a = st.number_input("Ângulo α ({u})", format="%g" , step=1.0)
-    elif t == "Ângulo α1":
-        result = f'α1 = 0 {u}'
+        a = st.number_input(f"Ângulo α ({u})", format="%g" , step=1.0)
+    elif t == "Ângulo α":
+        result = f'α = 0 {u}'
         w = st.number_input("Trabalho (J)", format="%g" , step=1.0)
         f = st.number_input("Força (N)", format="%g" , step=1.0)
         d = st.number_input("Deslocamento (m)", format="%g" , step=1.0)

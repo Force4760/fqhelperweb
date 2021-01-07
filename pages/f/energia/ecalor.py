@@ -42,20 +42,20 @@ def ecalor(b):
         e = ""
         m = st.number_input("Massa (g)", format="%g" , step=1.0)
         c = st.number_input("Capacidade Térmica Mássica (J/Kg/K)", format="%g" , step=1.0)
-        t = st.number_input( "Δ Temperatura (K)", format="%g" , step=1.0)
+        t = st.number_input( "Variação da Temperatura (K)", format="%g" , step=1.0)
     elif b == "Massa (g)":
         result = "m = 0 g"
         e = st.number_input("Energia (J)", format="%g" , step=1.0)
         m = ""
         c = st.number_input("Capacidade Térmica Mássica (J/Kg/K)", format="%g" , step=1.0)
-        t = st.number_input( "Δ Temperatura (K)", format="%g" , step=1.0)
+        t = st.number_input( "Variação da Temperatura (K)", format="%g" , step=1.0)
     elif b == "Capacidade Térmica Mássica (J/Kg/K)":
         result = "c = 0 J/Kg/K"
         e = st.number_input("Energia (J)", format="%g" , step=1.0)
         m = st.number_input("Massa (g)", format="%g" , step=1.0)
         c = ""
-        t = st.number_input("Δ Temperatura (K)", format="%g" , step=1.0)
-    elif b == "Δ Temperatura (K)":
+        t = st.number_input("Variação da Temperatura (K)", format="%g" , step=1.0)
+    elif b == "Variação da Temperatura (K)":
         result = f'ΔT = 0 K'
         e = st.number_input("Energia (J)", format="%g" , step=1.0)
         m = st.number_input("Massa (g)", format="%g" , step=1.0)

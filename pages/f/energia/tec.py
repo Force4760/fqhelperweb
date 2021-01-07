@@ -36,7 +36,7 @@ def tec(t):
         e = ""
         f = st.number_input("Energia cinética final (J)", format="%g" , step=1.0)
         i = st.number_input("Energia cinética inicial (J)", format="%g" , step=1.0)
-    elif t == "Energia cinética final (J)":
+    elif t == "Energia cinética inicial (J)":
         result = "Ecf = 0 J"
         f = ""
         e = st.number_input("Trabalho (J)", format="%g" , step=1.0)

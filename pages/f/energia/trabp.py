@@ -30,7 +30,7 @@ def calc(e, f, i):
 
 def trabp(t):
     result = 'Wp = 0 J'
-    st.latex(r"W_p = \Delta E_p")
+    st.latex(r"W_p = - \Delta E_p")
     if t == "Trabalho do peso (J)":
         result = 'W = 0 J'
         e = ""
