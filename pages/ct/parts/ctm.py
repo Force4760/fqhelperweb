@@ -40,5 +40,5 @@ ctm = ['Aço: 460',
        'Zinco: 387 ']
 
 def ctm_table():
-    st.title("Unidades: J/Kg K")
+    st.title("Unidades: J Kg⁻¹ K⁻¹")
     table(ctm)
